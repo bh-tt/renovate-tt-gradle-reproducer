@@ -2,5 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+        {
+      "matchDatasources": ["maven"],
+      "excludePackagePrefixes": ["org.junit.jupiter"],
+      "groupName": "All upstream dependencies",
+      "enabled": false,
+      "description": "group upstreams more than 1 month old together"
+    },
+
   ]
 }
