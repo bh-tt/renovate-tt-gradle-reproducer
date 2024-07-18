@@ -1,0 +1,14 @@
+plugins {
+  id "java-library"
+}
+
+
+dependencies {
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter-api:5.6.2',
+    )
+    api(
+       'org.wiremock:wiremock:3.8.0'
+    )
+}
+group = 'com.transtrend'
