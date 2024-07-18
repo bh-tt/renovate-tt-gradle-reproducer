@@ -1,0 +1,14 @@
+plugins {
+  id "java-library"
+}
+
+
+dependencies {
+    testImplementation(
+            'jakarta.ws.rs:jakarta.ws.rs-api:2.1.6'
+    )
+    api(
+            'org.wiremock:wiremock:3.7.0'
+    )
+}
+group = 'com.transtrend'
