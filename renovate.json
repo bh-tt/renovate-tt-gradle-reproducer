@@ -6,7 +6,7 @@
   "packageRules": [
         {
       "matchDatasources": ["maven"],
-      "excludePackagePrefixes": ["org.junit.jupiter"],
+      "matchPackagePrefixes": ["org.junit.jupiter"],
       "groupName": "All upstream dependencies",
       "enabled": false,
       "description": "group upstreams more than 1 month old together"
