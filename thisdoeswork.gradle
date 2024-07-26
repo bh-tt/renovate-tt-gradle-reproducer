@@ -8,7 +8,7 @@ dependencies {
             'jakarta.ws.rs:jakarta.ws.rs-api:2.1.6'
     )
     api(
-            'org.wiremock:wiremock:3.7.0'
+            'org.wiremock:wiremock:3.9.1'
     )
 }
 group = 'com.transtrend'
